@@ -270,7 +270,7 @@ def extractpjcrules(table):
     # coinvolta in alcuna fusione
 
     # print( str( len(vist)))
-    print("stampa dei pesi:\n")
+    # print("stampa dei pesi:\n")
     for i in table:
         if len(i.rlij.antec) == 0:
             if i.rli not in vist and i.rli not in newrules:

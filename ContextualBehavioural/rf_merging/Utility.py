@@ -78,7 +78,7 @@ def evalrls(rls, ds, F, ci, cj):
             found = 0
 
         if nrrls > 1:
-            print("trovate " + str(nrrls))
+            print("found " + str(nrrls))
             print(o)
             print("")
         nrrls = 0
