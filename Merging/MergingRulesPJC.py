@@ -1,8 +1,8 @@
-from main.Rules import TableEntryPJC
-from .TableEntryPJC import TableEntryPJC
-from .Rule import Rule
-from .Expression import Expression
-from .Utility import satisfiesrule
+import sys
+from TableEntryPJC import TableEntryPJC
+from Rule import Rule
+from Expression import Expression
+from Utility import satisfiesrule
 
 import sys
 
@@ -266,7 +266,7 @@ def extractpjcrules(table):
     # nota bene:
     # ogni singola regola essere state coinvolte in almeno una fusione
     # e di conseguenza queste non verranno mai trovate nel codice che segue
-    # una regola occorre nel codice che segue solamente se non è mai stata
+    # una regola occorre nel codice che segue solamente se non e mai stata
     # coinvolta in alcuna fusione
 
     # print( str( len(vist)))

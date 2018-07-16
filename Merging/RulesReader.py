@@ -1,5 +1,5 @@
-from .Expression import Expression
-from .Rule import Rule
+from Expression import Expression
+from Rule import Rule
 
 
 # Reads a set of rules from a .txt file

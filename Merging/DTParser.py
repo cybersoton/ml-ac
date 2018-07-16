@@ -1,5 +1,5 @@
-from .Rule import Rule
-from .Expression import Expression
+from Rule import Rule
+from Expression import Expression
 
 
 # It parses the output produced by a decision tree implemented in Matlab.

@@ -1,8 +1,10 @@
 import sys
-from main.Rules.DTParser import parsedt
-from main.Rules.Utility import readds, evalrls
-from main.Rules.MergingRulesPJC import pjcconversion, pjcintersection, extractpjcrules, wsc_avg, \
+from DTParser import parsedt
+from Utility import readds, evalrls
+from MergingRulesPJC import pjcconversion, pjcintersection, extractpjcrules, wsc_avg, \
     wsc_min, wsc_max, cac_max, cac_min
+
+#sys.path.insert(0, os.getcwd())
 
 if __name__ == '__main__':
     if len(sys.argv) != 5:
