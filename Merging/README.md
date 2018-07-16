@@ -1,4 +1,4 @@
-##Random Forest Merging Algorithm
+## Random Forest Merging Algorithm
 
 The files define a procedure to merge 
 
