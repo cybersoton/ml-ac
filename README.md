@@ -1,4 +1,4 @@
-# ML-AC: Adapting Access Control 
+# ML-AC: Adaptive Access Control 
 
 This repository contains the algorithm implementation of the ML-AC system presented in [this paper](https://eprints.soton.ac.uk/421536/).
 
